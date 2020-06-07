@@ -1,0 +1,27 @@
+{
+  "name": "cepmate-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergijBabich/Autocomplete_Library.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SergijBabich/Autocomplete_Library/issues"
+  },
+  "homepage": "https://github.com/SergijBabich/Autocomplete_Library#readme",
+  "devDependencies": {
+    "typescript": "^3.9.3"
+  },
+  "dependencies": {
+    "@types/es6-promise": "^3.3.0",
+    "jest": "^26.0.1"
+  }
+  
+}

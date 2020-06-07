@@ -1,0 +1,50 @@
+:root {
+    --base-font: "Gill Sans", sans-serif;
+    --load-text-size: 20px;
+    --base-color: #000;
+    --base-margin: auto;
+    --base-width:100%;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 300px;
+    min-height: 200px;
+    height: auto;
+    margin: var(--base-margin);
+}
+.input {
+    color: var(--base-color);
+    width: var(--base-width);
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+
+}
+.loaded_hiding {
+    display: none;
+}
+.loaded {
+    display: block;
+    font-family: var(--base-font);
+    font-size: var(--load-text-size);  
+}
+.list {
+    height: auto;
+    font-family: var(--base-font);
+
+}
+.card {
+    font-family: var(--base-font);
+    cursor: pointer;
+    width: var(--base-width);
+    height:35px;
+}
+
+.card:hover {
+ background-color: #e1dee4;
+}
